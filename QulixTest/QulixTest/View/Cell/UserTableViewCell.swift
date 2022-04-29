@@ -12,8 +12,6 @@ class UserTableViewCell: UITableViewCell {
     
     @IBOutlet weak var userID: UILabel!
     @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var body: UILabel!
-    @IBOutlet weak var id: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
